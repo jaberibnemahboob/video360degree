@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>360 degree Video with A-Frame | 360degree</title>
+        <link rel="stylesheet" href="styles/styles.css"/>
+        <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+    </head>
+<body>
+    <div class="topLink">
+        <nav class="topLinkNav">
+            <a class="blockLink" href="downloads/360-Process.pdf" target="_blank">Check the Process</a>
+            <a class="blockLink" href="downloads/360-Scenario-Map.pdf" target="_blank">Check Scenario Map</a>
+        </nav>
+    </div>
+    <a-scene>
+        <a-assets>
+            <video id="antarctica" crossOrigin="anonymous" autoplay loop="true" src="videos/360_Deg_Learning_Gym_Video_KEA_MMD_3rd_Semester_1440p.mp4"></video>
+        </a-assets>
+
+        <!-- Using the asset management system. -->
+        <a-videosphere src="#antarctica"></a-videosphere>
+    </a-scene>
+</body>
+</html>
