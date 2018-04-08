@@ -1,6 +1,7 @@
-*{box-sizing: border-box; margin: 0; font-size: 20px; font-family: 'verdana';}
+*{box-sizing: border-box; margin: 0; font-family: 'verdana';}
+body{font-size: 20px;}
 .topLink{
-    min-height: 6vh;
+    min-height: 14vh;
     background: rgba(0,0,0,0.25);
     position: absolute;
     top: 0;
@@ -12,11 +13,19 @@
 .topLinkNav{
     display: flex;
     align-content: space-around;
+    width: 80vw;
+    margin: 0 auto;
 }
 .blockLink{
     display: inline-block;
     padding: 0.5em;
     margin: 1em;
     margin: 0 auto;
+    color: #ffffff;
+}
+h1{
+    padding: 0.75em;
+    font-size: 1.3em;
+    text-align: center;
     color: #ffffff;
 }
