@@ -29,3 +29,9 @@ h1{
     text-align: center;
     color: #ffffff;
 }
+h2{
+    padding: 0.25em;
+    font-size: 1.1em;
+    text-align: left;
+    color: #ffffff;
+}
